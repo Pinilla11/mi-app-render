@@ -6,7 +6,7 @@ app = Flask(__name__)
 # Ruta principal: lo que se ve al entrar en la URL raíz ("/")
 @app.route("/")
 def home():
-return """
+  return """
 <h1>¡Hola desde Render!</h1>
 1
 <p>Esta aplicación Python se está ejecutando en la nube como un servicio PaaS.</p>
